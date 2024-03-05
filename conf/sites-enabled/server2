@@ -1,0 +1,7 @@
+server
+{
+	listen 8887;
+	server_name localhost;
+
+	include server.conf;
+}

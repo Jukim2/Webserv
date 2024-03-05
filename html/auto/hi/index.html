@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #content {
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 600px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #message {
+            color: #007bff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Hello, C++ Web Server!</h1>
+        <p>This is a test page for your C++ web server.</p>
+        <button onclick="showMessage()">Click me!</button>
+        <p id="message"></p>
+
+        <script>
+            function showMessage() {
+                document.getElementById("message").innerText = "Button clicked!";
+            }
+        </script>
+    </div>
+</body>
+</html>
